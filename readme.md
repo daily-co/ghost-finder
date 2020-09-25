@@ -60,6 +60,10 @@ To see how you can get contentApiKey , [Click Here](https://github.com/electront
 | singleResultTemplate | see bellow          | Single search result template                      |
 | excerpt_length       | 15                  | word count to show in `##excerpt` variable         |
 | time_format          | `'MMMM Do YYYY'`    | Time format string for `##published_at` variable   |
+| mark                 | `false`           | Enables keyword highlighting via mark.js           |
+| markOptions          | `{}`*           | Configuration options for mark.js                  |
+
+> see mark.js [docs](https://markjs.io/#mark) for all available options
 
 ### Default templates
 
@@ -93,6 +97,7 @@ To see how you can get contentApiKey , [Click Here](https://github.com/electront
 | `##published_at`          | Post publication date. Format can be change by `time_format` option |
 | `##feature_image`         | Post featured image url                                             |
 | `##resultCount`           | Matched result count                                                |
+| `##searchTerm `           | Search term                                                         |
 
 ## Logs
 
